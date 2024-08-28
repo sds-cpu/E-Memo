@@ -1,0 +1,197 @@
+body 
+{
+   /*font-family: 'Satisfy', cursive;*/
+   font-family: 'Sanchez', serif;
+   font-size: 1.2em;   
+}
+header,footer,h1,h2,h3,h4,h5,h6~.fa{
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+.container{
+	vertical-align: center;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+.cover-image{
+	background-image: url("../images/cover.jpg");
+ }
+ .checkslam-image{
+	background-image: url("../images/stone.jpg");
+ }
+
+    /* Create the parallax scrolling effect */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 900px;
+ }
+.dark-grey{
+	background-color: #353333;
+    color: white !important;
+}
+.a-anchor{
+	color:inherit;
+}
+.size-up{
+	font-size: 3em;
+}
+.display-bottommiddle{position:absolute;left:50%;bottom:1%;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.display-topright{position:absolute;right:1%;top:2%;}
+.showMenu{display: inline-block !important;color: white;}
+.hide{display: none;}
+#position1{position: absolute;top: 10%;right:30%;}
+#position2{position: absolute;top: 30%;right:10%;}
+#position3{position: absolute;top: 60%;right:20%;}
+.home-span{color: black;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 29px;}
+.account-span{position: absolute;
+    margin-left: -40px;
+    margin-top: 20px;
+    color: black;
+    font-size: 1.2em;}
+  .slam-span{position: absolute;
+    margin-left: -20px;
+    margin-top: 25px;
+    color: black;
+    font-size: 1.2em;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	border-style: inset;
+	border-radius: 15px;
+	border-color: grey;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+/* The Close Button */
+.close-modal {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+.form-padding{width: 70%;margin: auto;margin-top: 32px;}
+.btn-center{text-align: center;}
+hr{background-color: #c1bbbb;}
+.bubble {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: radial-gradient(circle, white, #17a2b8);
+    opacity: 0.7;
+}
+.new-request{
+    padding-top:32px;
+    padding-bottom: 64px;
+}
+.div-recent-slam{
+    display: inline-block;width: 380px;
+}
+.recent-slam-image{width: 90%;}
+.text-center{text-align: center;}
+.text-size-down{font-size: 0.8em;}
+.text-align-left{text-align: left;}
+.font-style{font-size: 0.9em;font-weight: 900;}
+.set-bgimage{background-image: url("../images/stone.jpg");}
+
+.mySlides {display: none;}
+.slideshow-image{vertical-align: middle;width: 700px;height: 500px;}
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #1851b7;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
